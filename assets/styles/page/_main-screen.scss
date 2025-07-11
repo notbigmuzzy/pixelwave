@@ -1,0 +1,100 @@
+screen-main {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 75%;
+	height: 100%;
+	display: flex;
+	margin: 0 auto;
+    left: 0;
+    right: 0;
+
+	backround-stuff {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;		
+	}
+
+	foreground-stuff {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-content: center;
+		flex-direction: column;
+	}
+
+	mega-title {
+		height: 40%;
+		display: flex;
+		justify-content: center;
+
+
+		h1 {
+			display: flex;
+			flex-direction: column;
+			align-content: center;
+			justify-content: center;
+			text-align: center;
+		}
+
+		top-mega {
+			display: flex;
+			font-size: 210px;
+			line-height: 1;
+			color: yellow;
+
+			span {
+				padding: 0 10px;
+				letter-spacing: 10px;
+			}
+
+			first-letter,
+			last-letter {
+				font-size: 300px;
+				line-height: 1px;
+				position: relative;
+				bottom: -135px;				
+			}
+		}
+
+		bottom-mega {
+			font-size: 70px;
+			line-height: 1;
+
+			span {
+				display: inline-block;
+				padding: 0 20px;
+				background-color: goldenrod;
+			}
+		}
+	}
+
+	main-menu {
+		display: flex;
+		justify-content: center;
+		flex-grow: 99;
+		padding-bottom: 40px;
+
+		span {
+			display: flex;
+			flex-direction: column;
+			justify-content: end;
+		}
+
+		button {
+			max-width: 200px;
+			margin: 20px 0;
+		}
+	}
+
+	bottom-options {
+		display: flex;
+		justify-content: space-between;
+		padding: 20px 40px;
+	}
+}
